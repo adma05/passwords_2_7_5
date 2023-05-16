@@ -99,7 +99,6 @@ class User {
 
         settingsCfg = {
             autoHideData: this.getQuery('.item')[0].childNodes[1].childNodes[1].checked,
-            confirmDelPass: this.getQuery('.item')[1].childNodes[1].childNodes[1].checked,
             hideDataInTable: this.getQuery('.item')[2].childNodes[1].childNodes[1].checked
         }
         
