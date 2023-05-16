@@ -26,11 +26,8 @@
     font-family: sans-serif;
 }
 body {
-<<<<<<< HEAD
     background-color: #e8e8e8;
-=======
     background-color: #ddd;
->>>>>>> 015afb7150d2091c26dcb3eb57cf418772efb644
     overflow: hidden;
 }
 .hidden, #hidden {
