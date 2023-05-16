@@ -26,7 +26,7 @@
     font-family: sans-serif;
 }
 body {
-    background-color: #eee;
+    background-color: #e8e8e8;
     overflow: hidden;
 }
 .hidden, #hidden {
@@ -76,7 +76,7 @@ body {
     border: none;
     padding: 15px;
     background-color: #fff;
-    border-top: 1px solid #eee;
+    border-top: 1px solid #ddd;
     display: block;
     width: 100%;
     cursor: pointer;
@@ -158,11 +158,11 @@ body {
 
 .left .left-bar .top button:first-child {
     border-top: none;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ddd;
 }
 .left .left-bar button:last-child {
     border-bottom: none;
-    border-top: 1px solid #eee;
+    border-top: 1px solid #ddd;
 }
 
 .left .left-bar .bottom {
@@ -263,8 +263,8 @@ body {
     padding: 15px;
     background: #fff;
     width: 100%;
-    border: 1px solid #eee;
-    border-top: 1px solid #eee;
+    border: 1px solid #ddd;
+    border-top: 1px solid #ddd;
     border-left: none;
 }
 
@@ -288,7 +288,7 @@ body {
     border-top: 1px solid #eee;
 } */
 .main .passwords #passwords-path .main-path .password-item  div{
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ddd;
 }
 
 .main .passwords #passwords-path .main-path .password-item div.edit-pass {
@@ -396,7 +396,7 @@ body {
 .edit-pass-bar #main-edit-page .last-inputs ul li input {
     padding: 15px;
     border-radius: 4px;
-    border: 1px solid #eee;
+    border: 1px solid #ddd;
     font-size: 18px;
     width: 100%;
     display: block;
@@ -476,6 +476,8 @@ body {
     border-radius: 0;
     outline: none;
     color: #000;
+    background-color: #fff;
+    background: #fff;
     border-radius: 4px;
 }
 #create-new-pass-bar .main-content .content input::placeholder {
@@ -665,7 +667,7 @@ body {
     display: inline-block;
     padding: 15px 30px;
     font-size: 18px;
-    border: 1px solid #eee;
+    border: 1px solid #ddd;
     margin: 0px -3px;
     user-select: none;
     cursor: pointer;

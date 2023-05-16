@@ -37,6 +37,7 @@ function callOpen() {
         slashes: true,
     }));
     win.maximize();
+    win.removeMenu();
     app.focus();
 }
 
