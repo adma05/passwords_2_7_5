@@ -1,7 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 const token = player.notifications.telegram_token;
 const bot = new TelegramBot(token, {polling: true})
-// 147593612
 const chat_id = "";
 async function sendMessage(message = null) {
     if(!message) return;
