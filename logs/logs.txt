@@ -1,0 +1,19 @@
+[2023-06-08T00:59:07.883Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T00:59:15.626Z] Error: ETELEGRAM: 400 Bad Request: chat_id is empty
+[2023-06-08T00:59:43.883Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T00:59:46.236Z] Error: ETELEGRAM: 400 Bad Request: chat_id is empty
+[2023-06-08T01:02:20.246Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T01:02:22.270Z] Error: ETELEGRAM: 400 Bad Request: chat_id is empty
+[2023-06-08T01:02:43.656Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T01:02:45.809Z] Error: ETELEGRAM: 400 Bad Request: chat_id is empty
+[2023-06-08T01:06:31.424Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T01:06:33.582Z] Error: ETELEGRAM: 403 Forbidden: bot can't send messages to bots
+[2023-06-08T01:14:13.799Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T01:14:21.798Z] Error: ETELEGRAM: 400 Bad Request: chat not found
+[2023-06-08T01:15:22.855Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T01:15:24.841Z] Error: ETELEGRAM: 403 Forbidden: bot can't send messages to bots
+[2023-06-08T01:20:27.120Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T01:20:51.980Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T01:21:13.465Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T01:22:55.096Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T01:26:18.708Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'

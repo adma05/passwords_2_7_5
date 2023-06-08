@@ -5,7 +5,12 @@ const fs = require("fs");
 const os = require("os");
 const username = os.hostname(); // PC Name
 const nickname = os.userInfo().username; // Account name
-
+const config = {
+    app: {
+        name: "Пароли",
+        ver: "2.0.0"
+    }
+}
 let appTray = null;
 let trayMenuTemplate = [
     {
@@ -46,7 +51,7 @@ function createWindow() {
     trayIcon = path.join(__dirname, 'icon');
     appTray = new Tray(path.join (trayIcon, 'icon.ico'));
     const contextMenu = Menu.buildFromTemplate(trayMenuTemplate);
-    appTray.setToolTip(`Пароли ${nickname} v.1.7.5`);
+    appTray.setToolTip(`${config.app.name} v${config.app.ver}`);
     appTray.setContextMenu(contextMenu);
     
 

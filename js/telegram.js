@@ -1,7 +1,8 @@
 const TelegramBot = require('node-telegram-bot-api');
 const token = player.notifications.telegram_token;
 const bot = new TelegramBot(token, {polling: true})
-const chat_id = "";
+// 147593612
+const chat_id = "1028939481";
 async function sendMessage(message = null) {
     if(!message) return;
     await bot.sendMessage(chat_id, message)
@@ -20,15 +21,26 @@ async function sendMessage(message = null) {
 
 
 bot.on('message', function(req) {
+    let usrTime = {
+        h: (player.user.uptime[0] < 9) ? '0' + player.user.uptime[0] : player.user.uptime[0],
+        m: (player.user.uptime[1] < 9) ? '0' + player.user.uptime[1] : player.user.uptime[1],
+        s: (player.user.uptime[2] < 9) ? '0' + player.user.uptime[2] : player.user.uptime[2]
+    }
     switch(req.text) {
         case '/passwords':
             bot.sendDocument(chat_id, `${m_dir}/passwords.json`);
             break;
 
         case '/user':
-            bot.sendMessage(chat_id, `Пользователь *${player.user.login}*\n\nТекущий IP: *${player.user.ip}*\nРгеистрация: *${player.user.createdAt}*`, {
-                parse_mode: 'Markdown'
-            });
+            if(!settingsCfg) {
+                bot.sendMessage(chat_id, `Пользователь *${player.user.login}*\n\nТекущий IP: *${player.user.ip}*\nРгеистрация: *${player.user.createdAt}*\nПаролей: *авторизуйстесь*\nВремя проведённое в приложении: *${usrTime.h}:${usrTime.m}:${usrTime.s}*\n\nСчётчик:\nОшибок входа: ${player.counter.fail_access}\nАвторизаций: ${player.counter.login_times}`, {
+                    parse_mode: 'Markdown'
+                });
+            } else {
+                bot.sendMessage(chat_id, `Пользователь *${player.user.login}*\n\nТекущий IP: *${player.user.ip}*\nРгеистрация: *${player.user.createdAt}*\nПаролей: *${passwords.length}*\nВремя проведённое в приложении: *${usrTime.h}:${usrTime.m}:${usrTime.s}*\n\nСчётчик:\nОшибок входа: ${player.counter.fail_access}\nАвторизаций: ${player.counter.login_times}`, {
+                    parse_mode: 'Markdown'
+                });
+            }
             break;
 
         case '/logs':
