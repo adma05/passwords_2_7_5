@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [2023-06-08T00:59:07.883Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
 [2023-06-08T00:59:15.626Z] Error: ETELEGRAM: 400 Bad Request: chat_id is empty
 [2023-06-08T00:59:43.883Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
@@ -32,3 +33,5 @@
 [2023-06-20T11:56:06.027Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
 [2023-06-20T11:58:35.636Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
 [2023-06-20T11:59:00.440Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+=======
+>>>>>>> f2664cb7a61936f71f51e89e244a9d1eeb8b5a20
