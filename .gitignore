@@ -10,6 +10,7 @@
 # dependencies
 /node_modules
 /release-builds
+/logs
 
 # Packages #
 ############

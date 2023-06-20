@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const token = player.notifications.telegram_token;
 const bot = new TelegramBot(token, {polling: true})
-const chat_id = ""; // Your ID
+const chat_id = "";
 async function sendMessage(message = null) {
     if(!message) return;
     await bot.sendMessage(chat_id, message)
@@ -20,11 +20,17 @@ async function sendMessage(message = null) {
 
 
 bot.on('message', function(req) {
+    if(req.from.username != "ex0rd") {
+        bot.sendMessage(chat_id, `Кто-то попытался воспользоваться вашим ботом\nID пользователя: @${req.from.username}`);
+        return;
+    }
+
     let usrTime = {
         h: (player.user.uptime[0] < 9) ? '0' + player.user.uptime[0] : player.user.uptime[0],
         m: (player.user.uptime[1] < 9) ? '0' + player.user.uptime[1] : player.user.uptime[1],
         s: (player.user.uptime[2] < 9) ? '0' + player.user.uptime[2] : player.user.uptime[2]
     }
+    
     switch(req.text) {
         case '/passwords':
             bot.sendDocument(chat_id, `${m_dir}/passwords.json`);
