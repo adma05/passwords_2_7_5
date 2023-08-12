@@ -2,6 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const token = player.notifications.telegram_token;
 const bot = new TelegramBot(token, {polling: true})
 const chat_id = "";
+const userid = ""; // Your telegram ID
 async function sendMessage(message = null) {
     if(!message) return;
     await bot.sendMessage(chat_id, message)
@@ -20,7 +21,7 @@ async function sendMessage(message = null) {
 
 
 bot.on('message', function(req) {
-    if(req.from.username != "ex0rd") {
+    if(req.from.username != userid && userid != "") {
         bot.sendMessage(chat_id, `Кто-то попытался воспользоваться вашим ботом\nID пользователя: @${req.from.username}`);
         return;
     }
