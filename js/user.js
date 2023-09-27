@@ -121,8 +121,7 @@ class User {
                     }
                 },
                 notifications: {
-                    telegram_token: this.getQuery('#user-phone-auth')[0].value || '',
-                    phone: ""
+                    telegram_token: this.getQuery('#user-phone-auth')[0].value || ''
                 },
                 counter: {
                     fail_access: 0,
