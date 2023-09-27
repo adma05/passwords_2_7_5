@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const token = player.notifications.telegram_token;
 const bot = new TelegramBot(token, {polling: true})
-const chat_id = "";
+const chat_id = ""; // Bot chat ID
 const userid = ""; // Your telegram ID
 async function sendMessage(message = null) {
     if(!message) return;
