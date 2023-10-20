@@ -90,13 +90,6 @@ async function sendMessage(message = null) {
 bot.on("polling_error", (msg) => console.log(msg));
 
 bot.on('message', function(req) {
-    /* 
-    // your username
-    if(req.from.username != "") {
-        bot.sendMessage(chat_id, `Кто-то попытался воспользоваться вашим ботом\nID пользователя: @${req.from.username}`);
-        return;
-    } */
-
     let usrTime = {
         h: (array.user.uptime[0] < 9) ? '0' + array.user.uptime[0] : array.user.uptime[0],
         m: (array.user.uptime[1] < 9) ? '0' + array.user.uptime[1] : array.user.uptime[1],
