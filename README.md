@@ -1,4 +1,4 @@
-# Passwords Manager | ver. 1.7.5
+# Passwords Manager  ver. 1.7.5
 
 # Step 1
 Enter each command in turn into the console, opening it in the application folder
