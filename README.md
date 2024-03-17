@@ -1,7 +1,7 @@
 ## Passwords Manager  ver. 2.7.5
 
 # Step 1
-Enter each command in turn into the console, opening it in the application folder **or** run this file: *req.cmd*
+Enter each command in turn into the console, opening it in the application folder **or** run this file: *init-module.cmd*
 ```
 npm i fs
 
