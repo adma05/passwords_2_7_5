@@ -9,7 +9,7 @@ const nickname = os.userInfo().username; // Account name
 const config = {
     app: {
         name: "Пароли",
-        ver: "2.2.1"
+        ver: "2.5.7"
     }
 }
 let appTray = null;
