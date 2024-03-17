@@ -1,4 +1,4 @@
-const version = '1.7.5';
+const version = '2.7.5';
 const { desktopCapturer } = require("electron");
 const { writeSync, stat } = require("original-fs");
 
