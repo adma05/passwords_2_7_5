@@ -149,7 +149,7 @@ body {
 } 
 
 .left .left-bar button i {
-    font-size: 24px;
+    font-size: 30px;
     color: #444;
 }
 
@@ -212,8 +212,7 @@ body {
     position: relative;
 }
 .main .content-in h1 strong {
-    position: absolute;
-    right: 25px;
+    position: relative;
     color: royalblue;
     font-weight: 100;
 }
@@ -451,9 +450,10 @@ body {
 #create-new-pass-bar .main-content {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     width: 40%;
-    height: 70%;
+    height: 65%;
     background-color: #fff;
     padding: 15px;
     border-radius: 0;
@@ -600,7 +600,7 @@ body {
 }
 .auth-reg-bar .steps .numbers,
 .numbers-join {
-    width: 50%;
+    width: 35%;
 }
 .main-content button {
     bottom: 25px;
@@ -633,12 +633,12 @@ body {
     align-items: center;
 }
 .pincode .main-content {
-    display: block;
     background-color: #fff;
     width: 35%;
-    height: 75%;
+    height: 65%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -925,7 +925,7 @@ body {
     border-top: 1px solid #ddd;
     padding: 0;
     border-bottom: 1px solid #ddd;
-    height: 365px;
+    height: 600px;
     overflow-y: auto;
 }
 .console #container .history #item-console-content {
@@ -967,7 +967,7 @@ body {
 }
 
 .console #container .write textarea {
-    width: 979px;
+    width: 85rem;
     display: inline-block;
     border: none;
     padding: 15px;
@@ -987,7 +987,7 @@ body {
 .console #container .write div button {
     position: absolute;
     top: 50%;
-    right: 50%;
+    right: 40%;
     transform: translateY(-50%) translateX(50%);
     padding: 15px;
     background-color: royalblue;

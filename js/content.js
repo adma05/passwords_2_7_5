@@ -140,6 +140,4 @@ createBtn.addEventListener("click", function() {
         createdAt: new Date().toLocaleString()
     }, true, index);
     passList.innerText = passwords.length;
-    // console.log(passwords.length);
-})
-
+});

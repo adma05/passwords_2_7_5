@@ -45,8 +45,10 @@ for(let i = 0; i < numbersBtns.length; i++) {
 // AUTH
 let wrongCounter = 0;
 const joinAccBtn = document.querySelector("#join-in-account");
-const loginAccBtn = document.querySelector("#wr-join-in-account")
-joinAccBtn.addEventListener("click", function() {
+const joinAccInput = document.querySelector("#user-pincode");
+const loginAccBtn = document.querySelector("#wr-join-in-account");
+
+function authRequest() {
     let win = document.querySelector(".pincode");
     let value = userPincodeAuthInput.value;
     if(wrongCounter == 3) {
@@ -75,7 +77,19 @@ joinAccBtn.addEventListener("click", function() {
         user.update();
         wrongCounter++;
     }
-})
+}
+
+joinAccBtn.addEventListener("click", function() {
+    authRequest();
+});
+
+joinAccInput.addEventListener("keyup", function(e) {
+    const k = e.key;
+    if(k == 'Enter') {
+        authRequest();
+    }
+});
+
 let wrongCounter2 = 0;
 
 loginAccBtn.addEventListener('click', function() {

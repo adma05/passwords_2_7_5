@@ -1,0 +1,66 @@
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+[2023-06-08T00:59:07.883Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T00:59:15.626Z] Error: ETELEGRAM: 400 Bad Request: chat_id is empty
+[2023-06-08T00:59:43.883Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T00:59:46.236Z] Error: ETELEGRAM: 400 Bad Request: chat_id is empty
+[2023-06-08T01:02:20.246Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T01:02:22.270Z] Error: ETELEGRAM: 400 Bad Request: chat_id is empty
+[2023-06-08T01:02:43.656Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T01:02:45.809Z] Error: ETELEGRAM: 400 Bad Request: chat_id is empty
+[2023-06-08T01:06:31.424Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T01:06:33.582Z] Error: ETELEGRAM: 403 Forbidden: bot can't send messages to bots
+[2023-06-08T01:14:13.799Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T01:14:21.798Z] Error: ETELEGRAM: 400 Bad Request: chat not found
+[2023-06-08T01:15:22.855Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T01:15:24.841Z] Error: ETELEGRAM: 403 Forbidden: bot can't send messages to bots
+[2023-06-08T01:20:27.120Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T01:20:51.980Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T01:21:13.465Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T01:22:55.096Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-08T01:26:18.708Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-20T11:39:02.446Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-20T11:39:45.646Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-20T11:40:38.410Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-20T11:41:27.942Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-20T11:42:25.550Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-20T11:43:16.161Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-20T11:48:25.619Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-20T11:50:43.263Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-20T11:51:35.517Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-20T11:51:40.136Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-20T11:52:22.547Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-20T11:53:10.666Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-20T11:56:06.027Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-20T11:58:35.636Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+[2023-06-20T11:59:00.440Z] Error: EEXIST: file already exists, mkdir 'C:/Users/undertaker/Documents/passwords_data'
+=======
+>>>>>>> f2664cb7a61936f71f51e89e244a9d1eeb8b5a20
+[2024-03-17T04:54:55.027Z] Error: EEXIST: file already exists, mkdir 'C:/Users/cicada3310.ASUS-ROG-PC/Documents/passwords_data'
+[2024-03-17T04:55:00.822Z] Error: ETELEGRAM: 400 Bad Request: chat_id is empty
+[2024-03-17T04:55:10.262Z] Error: EEXIST: file already exists, mkdir 'C:/Users/cicada3310.ASUS-ROG-PC/Documents/passwords_data'
+[2024-03-17T04:55:12.966Z] Error: ETELEGRAM: 400 Bad Request: chat_id is empty
+[2024-03-17T04:55:39.022Z] Error: EEXIST: file already exists, mkdir 'C:/Users/cicada3310.ASUS-ROG-PC/Documents/passwords_data'
+[2024-03-17T04:56:06.203Z] Error: EEXIST: file already exists, mkdir 'C:/Users/cicada3310.ASUS-ROG-PC/Documents/passwords_data'
+[2024-03-17T04:56:12.522Z] Error: ETELEGRAM: 400 Bad Request: chat_id is empty
+[2024-03-17T04:58:39.193Z] Error: EEXIST: file already exists, mkdir 'C:/Users/cicada3310.ASUS-ROG-PC/Documents/passwords_data'
+[2024-03-17T05:08:04.365Z] Error: ETELEGRAM: 400 Bad Request: chat_id is empty
+[2024-03-17T05:08:31.087Z] Error: EEXIST: file already exists, mkdir 'C:/Users/cicada3310.ASUS-ROG-PC/Documents/passwords_data'
+[2024-03-17T05:08:40.408Z] Error: ETELEGRAM: 400 Bad Request: chat_id is empty
+[2024-03-17T05:09:15.961Z] Error: EEXIST: file already exists, mkdir 'C:/Users/cicada3310.ASUS-ROG-PC/Documents/passwords_data'
+[2024-03-17T05:10:59.160Z] Error: EEXIST: file already exists, mkdir 'C:/Users/cicada3310.ASUS-ROG-PC/Documents/passwords_data'
+[2024-03-17T05:11:03.937Z] Error: EEXIST: file already exists, mkdir 'C:/Users/cicada3310.ASUS-ROG-PC/Documents/passwords_data'
+[2024-03-17T05:11:53.869Z] Error: EEXIST: file already exists, mkdir 'C:/Users/cicada3310.ASUS-ROG-PC/Documents/passwords_data'
+[2024-03-17T05:12:07.003Z] Error: EEXIST: file already exists, mkdir 'C:/Users/cicada3310.ASUS-ROG-PC/Documents/passwords_data'
+[2024-03-17T05:12:22.409Z] Error: EEXIST: file already exists, mkdir 'C:/Users/cicada3310.ASUS-ROG-PC/Documents/passwords_data'
+[2024-03-17T05:13:16.109Z] Error: EEXIST: file already exists, mkdir 'C:/Users/cicada3310.ASUS-ROG-PC/Documents/passwords_data'
+[2024-03-17T05:13:41.359Z] Error: EEXIST: file already exists, mkdir 'C:/Users/cicada3310.ASUS-ROG-PC/Documents/passwords_data'
+[2024-03-17T05:13:45.451Z] Error: ETELEGRAM: 400 Bad Request: chat_id is empty
+[2024-03-17T05:18:00.997Z] Error: EEXIST: file already exists, mkdir 'C:/Users/cicada3310.ASUS-ROG-PC/Documents/passwords_data'
+[2024-03-17T05:18:17.856Z] Error: EEXIST: file already exists, mkdir 'C:/Users/cicada3310.ASUS-ROG-PC/Documents/passwords_data'
+[2024-03-17T05:18:48.159Z] Error: EEXIST: file already exists, mkdir 'C:/Users/cicada3310.ASUS-ROG-PC/Documents/passwords_data'
+[2024-03-17T05:19:14.842Z] Error: ETELEGRAM: 400 Bad Request: chat_id is empty
+[2024-03-17T05:19:44.980Z] Error: EEXIST: file already exists, mkdir 'C:/Users/cicada3310.ASUS-ROG-PC/Documents/passwords_data'
+[2024-03-17T05:20:48.463Z] Error: EEXIST: file already exists, mkdir 'C:/Users/cicada3310.ASUS-ROG-PC/Documents/passwords_data'
+>>>>>>> Stashed changes
