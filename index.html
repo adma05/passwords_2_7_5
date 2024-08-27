@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Passwords</title>
 </head>
 <body>
@@ -157,7 +158,7 @@
                 <p>
                     Инструкция по настрйке уведомлений от
                     вашего телеграм бота вы можете получить
-                    <a style="color: royalblue; text-decoration: none;" href="https://github.com/hosein2398/node-telegram-bot-api-tutorial" target="_blank" title="https://github.com/yagop/node-telegram-bot-api/tree/master/doc">здесь</a>.
+                    <a style="color: royalblue; text-decoration: none;" href="https://github.com/yagop/node-telegram-bot-api/tree/master/doc" target="_blank" title="https://github.com/yagop/node-telegram-bot-api/tree/master/doc">здесь</a>.
                     <br>
                     <br>
                     Настроить уведомления можно в настройках
@@ -343,9 +344,19 @@
                     Дата регистрации<strong class="context" id="user-were-created">N/A</strong>
                 </li>
                 <li>
-                    Получить <a href="https://github.com/hosein2398/node-telegram-bot-api-tutorial" target="_blank" title="https://vkhost.github.io/">Telegram</a> токен <strong class="context" id="user-telegram-token">N/A</strong>
+                    Введите <a href="https://cobrasystems.nl/telegram-user-id/" title="https://cobrasystems.nl/telegram-user-id/" target="_blank" title="https://vkhost.github.io/">userid</a> (без @) <strong title="Текущий userid" class="context small p5" id="user-telegram-userid">N/A</strong>
+                    <input type="text" placeholder="@name" id="oauth-userid">
+                    <span class="load-oauth-save" id="userid-status">Сохранено</span>
+                </li>
+                <li>
+                    Введите <a href="https://www.wikihow.com/Know-Chat-ID-on-Telegram-on-Android" title="https://www.wikihow.com/Know-Chat-ID-on-Telegram-on-Android" target="_blank" title="https://vkhost.github.io/">chat_id</a> <strong class="context small" title="Текущий chatid" id="user-telegram-chatid">N/A</strong>
+                    <input type="text" placeholder="chat_id" id="oauth-chatid">
+                    <span class="load-oauth-save" id="chatid-status">Сохранено</span>
+                </li>
+                <li>
+                    Получить <a href="https://github.com/yagop/node-telegram-bot-api/tree/master/doc" title="https://github.com/yagop/node-telegram-bot-api/tree/master/doc" target="_blank" title="https://vkhost.github.io/">Telegram</a> токен <strong class="context" id="user-telegram-token">N/A</strong>
                     <input type="text" placeholder="oauth token" id="oauth-vk-token">
-                    <span class="load-oauth-save">Сохранено</span>
+                    <span class="load-oauth-save" id="oauth-vk-token-save">Сохранено</span>
                 </li>
                 <li>
                     Пароль
@@ -456,7 +467,17 @@
             </div>
         </div>
     </section>
-    <script type="text/javascript" src="http://ip-jobs.staff-base.spb.ru/ip.cgi"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        let ipUrl = "https://api.ipify.org?format=json";
+        let IP = null;
+        async function getIP() {
+            const response = await fetch(ipUrl);
+            const res = await response.json();
+            IP = res.ip;
+        }
+        getIP();
+    </script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="js/array.js"></script>
     <script src="js/vue.js"></script>
