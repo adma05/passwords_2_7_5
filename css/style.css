@@ -1035,6 +1035,15 @@ body {
     position: absolute;
     right: 5%;
 }
+.profile-page .profile-content ul li strong.small {
+    position: relative;
+    right: 0;
+    left: calc(10rem - 5px);
+    color: #666;
+}
+.profile-page .profile-content ul li strong.small.p5 {
+    left: calc(10rem - 10px);
+}
 
 .profile-page .profile-content ul li strong.show {
     color: crimson;
