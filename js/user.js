@@ -12,7 +12,7 @@ class User {
         isOk = true;
         isFiles = true;
 
-        fs.readdir(`${dir}/Documents/Passwords Data`, (err, files) => {
+        fs.readdir(`${dir}/Documents/passwords_data`, (err, files) => {
             if(err) {
                 isOk = false;
                 logs.use(null, `Папка "${directionName}" найдена.`, 'success', false, '#c500c5')
@@ -121,7 +121,9 @@ class User {
                     }
                 },
                 notifications: {
-                    telegram_token: this.getQuery('#user-phone-auth')[0].value || ''
+                    telegram_token: this.getQuery('#user-phone-auth')[0].value || '',
+                    chat_id: "",
+                    userid: ""
                 },
                 counter: {
                     fail_access: 0,
