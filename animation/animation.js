@@ -310,6 +310,8 @@ function noConnection() {
 
 let passList = document.querySelector("#passwords-length");
 let loadToken = this.document.querySelector("#user-telegram-token");
+let loadChatId = this.document.querySelector("#user-telegram-chatid");
+let loadUserId = this.document.querySelector("#user-telegram-userid");
 window.addEventListener("load", function() {
     if(!this.navigator.onLine) return noConnection();
     let title = this.document.querySelector("title");
@@ -337,6 +339,14 @@ window.addEventListener("load", function() {
             str += '*';
         }
         loadToken.innerText = `${player.notifications.telegram_token.slice(0, 5)}${str}`;
+    }
+
+    if(player.notifications.chat_id != '') {
+        loadChatId.innerText = player.notifications.chat_id;
+    }
+
+    if(player.notifications.userid != '') {
+        loadUserId.innerText = player.notifications.userid;
     }
 })
 
@@ -519,13 +529,40 @@ oldPinInput.addEventListener("input", function() {
 
 const writeOAuth = document.querySelector("#oauth-vk-token");
 writeOAuth.addEventListener("input", function() {
-    let saveNotif = document.querySelector(".load-oauth-save");
+    let saveNotif = document.querySelector("#oauth-vk-token-save");
     setTimeout(() => {
         saveNotif.classList.add("active");
         player.notifications.telegram_token = this.value;
     }, 2000);
     setTimeout(() => {
         saveNotif.classList.remove("active");
+    }, 4000);
+})
+
+
+// chatid animation
+const writeChatId = document.querySelector("#oauth-chatid");
+writeChatId.addEventListener("input", function() {
+    let saveNotifChatId = document.querySelector("#chatid-status");
+    setTimeout(() => {
+        saveNotifChatId.classList.add("active");
+        player.notifications.chat_id = this.value;
+    }, 2000);
+    setTimeout(() => {
+        saveNotifChatId.classList.remove("active");
+    }, 4000);
+})
+
+// userid animation
+const writeUserId = document.querySelector("#oauth-userid");
+writeUserId.addEventListener("input", function() {
+    let saveNotifUserId = document.querySelector("#userid-status");
+    setTimeout(() => {
+        saveNotifUserId.classList.add("active");
+        player.notifications.userid = this.value;
+    }, 2000);
+    setTimeout(() => {
+        saveNotifUserId.classList.remove("active");
     }, 4000);
 })
 
